@@ -1,0 +1,215 @@
+/* enquiry */
+#enquiry{
+    display: none;
+}
+
+/* Home */
+#home{
+   background-image: url(../assets/44fe2f1d-5c21-4000-a776-289c2bf8e631\ 1.png), url('../assets/SkyBG\ \(1\).jpg'); 
+}
+
+/* Navbar */
+.nav-links{
+    display: none;
+    width: 100%;
+}
+
+.active{
+    display: flex;
+}
+
+.toggle-btn{
+    display: flex;
+}
+
+#navbar{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-links ul{
+    flex-direction: column;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.nav-links ul li{
+    text-align: center;
+}
+
+.nav-links ul li a{
+    padding: 0.5rem 1rem;
+    color: #000000;
+}
+
+.nav-links ul li a:hover{
+    background: #00406C;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 700;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links .active{
+    display: flex;
+}
+
+.first-heading{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.second-heading{
+    font-size: 3.25rem;
+}
+
+#heading-footer{
+    margin-top: 3rem;
+}
+
+#heading-footer p{
+    letter-spacing: 0.15em;
+}
+
+/* Enquiry */
+#enquiry-section{
+    display: flex;
+}
+
+.enquiry-no, .enquiry-text{
+    padding: 0.5rem;
+    width: 50%;
+    text-align: center;
+}
+
+.section-heading{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+/* Specification */
+#specification-list li{
+    margin: 1.5rem 1rem;
+}
+
+#specification-list li img{
+    width: 6rem;
+    height: 6rem;
+}
+
+#specification-list li p{
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+
+/* Amenities */
+#amenities h1{
+    margin-bottom: 1rem;
+}
+
+.amenities-list li{
+    margin: 2rem 1rem;
+}
+
+.amenities-list li img{
+    width: 5rem;
+    height: 5rem;
+}
+
+/* Location */
+#location{
+    background: #00406C;
+
+}
+
+#location-images .large-map,#location-images .vertical-line{
+    display: none;
+}
+
+#location-images .small-map{
+    margin: -2rem 0rem;
+    width: 90vw;
+}
+
+#location-details{
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/* Gallery */
+#gallery{
+    height: 60vh;
+} 
+
+.arrow{
+    top: 20vh;
+    color: #444;
+}
+
+.prev{
+    left: 24px;
+}
+
+.next{
+    right: 48px;
+}
+
+.carousel img{
+    height: 45vh;
+}
+
+.slide ul{
+    height: 45vh;
+}
+
+/* Contact */
+#contact{
+    height: 70vh;
+}
+
+#contact-info{
+    display: none;
+}
+
+#contact-info-mobile{
+    font-family: 'Inter';
+    font-weight: 400;
+    background: #FFFFFF;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+#contact-info-mobile h2{
+    border-bottom: 1px solid #000000;
+    font-weight: 300;
+}
+
+#contact-info-mobile h3{
+    padding: 1rem 0rem;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+#contact-info-mobile .web-address{
+    padding-bottom: 1.5rem;
+    font-size: large;
+    font-weight: lighter;
+}
+
+#contact-info-mobile p:nth-last-child(2){
+    font-weight: 100;
+    font-size: x-small;
+    padding-bottom: 0.5rem;
+}
+
+#contact-info-mobile p:last-child{
+    font-size: xx-small;
+    font-weight: lighter;
+}
+

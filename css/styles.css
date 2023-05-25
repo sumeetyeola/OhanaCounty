@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/* Reset Styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Utility classes */
+.white-color{
+    color: #FFFFFF;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.font-larger{
+    font-size: larger;
+}
+
+.bullet{
+    list-style-type: disc;
+}
+
+.heading{
+    display: flex; 
+    justify-content: center;
+}
+
+.section-heading{
+    font-family: 'Inter';
+    font-weight: 300;
+    padding-top: 2rem;
+    font-size: 2rem;
+    width:fit-content
+}
+
+.border-white{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.border-amenities{
+    border-bottom: 2px solid #06353F;
+}
+
+.border-gallery{
+    border-bottom: 2px solid #25538F;
+}
+
+/* Enquiry*/
+#enquiry{
+    background: #000000;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 0.5rem 1rem;
+    transform: rotate(270deg);
+    position: fixed;
+    top: 3rem;
+    right: -2.65rem;
+    top: 35vh;
+    float: right;
+}
+
+#enquiry a{
+    color: #FFFFFF;
+}
+
+/* Home */
+#home{
+    background-image: url('../assets/44fe2f1d-5c21-4000-a776-289c2bf8e631\ 2.png'), url('../assets/SkyBG.jpg');;
+    background-repeat: no-repeat, no-repeat ;
+    background-position: center bottom, center top;
+    background-size: 100% 90%, 100% 85%;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Home -> Navbar */
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo a img{
+    height: 8rem;
+}
+
+.nav-links ul li a{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links ul li a{
+    padding: 0rem 3rem;
+    display: block;
+}
+
+.nav-links ul li a:hover{
+    background: #FFFFFF;
+    color: #000000;
+    font-family: 'Roboto';
+    font-weight: 700;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+/* .nav-links .active{
+    display: flex;
+} */
+
+.toggle-btn{
+    position: absolute;
+    top: 2.5rem;
+    right: 1.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.toggle-btn .bar{
+    height: 3px;
+    width: 100%;
+    border-radius: 0.5rem;
+    background: #FFFFFF;
+}
+
+/* Home -> Headings */
+#specification-heading{
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.first-heading{
+    font-size: 4rem;;
+}
+
+.second-heading{
+    font-size: 7rem;
+    margin-top: 1.5rem;
+}
+
+#heading-footer{
+    margin-top: 11rem;
+}
+
+#heading-footer p{
+    margin: 1.5rem 0rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+/* Specifications */
+#specifications{
+    height: 100vh;
+    background: #00406C;
+}
+
+/* Enquiry - Mobile view */
+#enquiry-section{
+    display: none;
+}
+
+.enquiry-no{
+    color: #045A6D;
+    background: #FFFFFF;
+}
+
+.enquiry-text{
+    color: #FFFFFF;
+    background: #00406C;
+}
+
+#specification-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#specification-list li{
+    margin: 2.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#specification-list li img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+
+#specification-list li p{
+    font-family: 'Inter';
+    font-weight: 500;
+    margin-top: 1.25rem;
+    font-size: 0.75rem;
+}
+
+/* Amenities */
+#amenities{
+    background: #FFFFFF;
+    color:#045A6D;
+    height: 100vh;
+}
+
+#amenities h1{
+    margin-bottom: 2rem;
+}
+
+.amenities-list{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.amenities-list li{
+    margin: 2.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amenities-list li img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.amenities-list li p{
+    margin-top: 1rem;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+/* Location */
+.location-heading{
+    background: #00406C;
+    color: #FFFFFF;
+    padding: 3rem 0rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.location-heading h1{
+    width: fit-content;
+    font-size: 2rem;
+    font-family: 'Inter';
+    font-weight: 300;
+}
+
+#location-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#location-images .vertical-line{
+    height: 15rem;
+    border-left: 3px solid #00406C;
+}
+
+#location-details{
+    background: #00406C;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+#location-details .bullet ul{
+    border-left: 1px solid #FFFFFF;
+    margin: 1.5rem 0rem;
+}
+
+#location-details .bullet ul li{
+    line-height: 1.8rem;
+    padding-left: 1rem;
+}
+
+/* Gallery */
+#gallery{
+    background: #FFFFFF;
+    color:#045A6D;
+    height: 100vh;
+}
+
+    /* Carousel */
+.carousel {
+    position: relative;
+    width: 90vw;
+    margin: 3rem auto;
+}
+  
+.carousel img {
+    width: 85vw;
+    height: 70vh;
+    display: block;
+}
+  
+.arrow {
+    position: absolute;
+    top: 32vh;
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+    z-index: 2;
+    padding: 0.25rem;
+}
+  
+.arrow:focus {
+    outline: none;
+}
+  
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+  
+.prev {
+    left: 40px;
+}
+  
+.next {
+    right: 100px;
+}
+  
+.slide {
+    width: 85vw;
+    overflow: hidden;
+}
+  
+.slide ul {
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    font-size: 0;
+}
+  
+.slide li {
+    display: inline-block;
+}
+
+/* Contact Us */
+#contact{
+    background: #00406C;
+    height: 100vh;
+}
+
+#contact h1{
+    margin-bottom: 2rem;
+}
+
+#contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* Contact form */
+#contact-form{
+    background: #FFFFFF;
+    color: #00406C;
+    min-width: 30vw;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+#contact-form h3{
+    margin-bottom: 1rem;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+#contact-form input[type = "text"]{
+    margin-top: 1rem;
+}
+
+#contact-form input{
+    display: block;
+    height: 2.5rem;
+    width: 100%;
+    margin: 2rem 0rem;
+    padding: 1rem 0rem 1rem 2rem;
+    box-shadow: 3px 3px 2px #AFAFAF;
+    border: none;
+}
+
+#contact-form input[type="tel"]{
+    padding-left: 0.5rem;
+}
+
+#contact-form .phone-input{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact-form .phone-input .code{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #00406C;
+    width: 5rem;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#contact-form .phone-input .code img{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #00406C;
+    padding-left: 0.2rem;
+}
+
+#contact-form .phone-input .code select{
+    background: #00406C;
+    border: none;
+    color: #FFFFFF;
+}
+
+#contact-form .phone-input input{
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+#contact-form input[type="checkbox"]{
+    box-shadow: none;
+    display: inline-block;
+    height: 0.75rem;
+    width: fit-content;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+#contact-form label{
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+}
+
+#contact-form input[type="submit"]{
+    background: #00406C;
+    padding: 0.5rem 2.5rem;
+    font-family: 'Inter';
+    font-weight: 900;
+    width: 10rem;
+    margin: 1rem auto;
+}
+
+/* Contact info*/ 
+#contact-info{
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+#contact-info h4, #contact-info h3, #contact-info p {
+    margin: 1rem 0rem;
+}
+
+#contact-info h3{
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: 300;
+}
+
+#contact-info h4{
+    font-weight: 200;
+}
+
+#contact-info p{
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+#contact-info p:nth-last-child(2){
+    font-weight: 100;
+    font-size: x-small;
+}
+
+#contact-info p:last-child{
+    font-size: xx-small;
+}
+
+#contact-info-mobile{
+    display: none;
+}
+
